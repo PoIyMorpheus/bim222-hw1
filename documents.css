@@ -1,0 +1,30 @@
+.documents a:any-link{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-decoration: none;
+    outline: solid 1px rgb(54, 51, 50);
+    padding: 3px;
+    color: rgb(54, 51, 50);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:inline-block;
+    
+}
+
+.documents ol{
+    list-style: none;
+    counter-reset: item;
+}
+.documents li{
+    counter-increment: item;
+    margin-bottom: 5px;
+}
+.documents li:before{
+    margin-right: 10px;
+    content: counter(item);
+    background: rgb(145,29,14);
+    border-radius: 100%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+}  

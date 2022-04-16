@@ -1,0 +1,15 @@
+.publications-stats img{
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-bottom: solid rgb(145,29,14);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.publications-stats img:hover{
+    width: 70%;
+    
+}

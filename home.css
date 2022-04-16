@@ -1,0 +1,29 @@
+.image1{
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image1:hover{
+    width: 55%;
+}
+
+.announcements li{
+    display:grid;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border-bottom: solid rgb(54, 51, 50);
+}
+
+.date{
+    margin:5px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(145,29,14);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    border-radius: 5px;
+}
+

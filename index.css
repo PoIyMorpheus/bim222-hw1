@@ -1,0 +1,148 @@
+.logo{
+    
+    margin-left: auto;
+    margin-right: 15px;
+    width: 120px;
+    height: 120px;
+    
+}
+
+body{
+    background-color:white;
+}   
+h1{
+    color:rgb(80,64,56);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    outline: 1px solid rgb(80,64,56);
+    background-color: white;
+    height: 35px;
+    
+}
+
+.nav a:link{
+    text-decoration: none;
+    color: rgb(80,64,56);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: large;
+    
+   
+}
+
+
+.nav li{
+    display: inline-block;
+    padding-top: 7px;
+    
+    width: 200px;
+    height: 28px;
+    
+    
+    text-align: center;
+    vertical-align:middle;
+    
+}
+
+.nav li:hover{
+    background-color: rgb(54, 51, 50);
+    
+}
+
+.nav li:hover > a{
+    color: white;
+    font-size: x-large;
+}
+.nav a:visited{
+    color: rgb(54, 51, 50);
+}
+
+.active-page{
+    background-color: rgb(54, 51, 50);
+}
+.active-page > a:any-link {
+    font-size: x-large;
+    color: white;
+}
+
+.title{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: x-large;
+    
+    padding: 5px;
+    background-color: rgb(54, 51, 50);
+    color: white;
+    margin: 30px;
+    
+}
+
+.title2{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: large;
+    outline: solid 1px rgb(145,29,14);
+    padding: 3px;
+    color: rgb(145,29,14);
+    margin: 20px;
+    
+}
+.text{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 30px;
+}
+
+.students ul{
+    margin-top: 5px;
+}
+.students .nav{
+    outline: 0px;
+}
+
+.students li{
+    background-color: white;
+}
+.students .nav a{
+    visibility:hidden;
+    display: block;
+    position: relative;
+}
+.students .nav a:hover a{
+    visibility: visible;
+}
+
+.students:hover a{
+    visibility: visible;
+    color:rgb(80,64,56);
+    
+}
+.students:hover li{
+    visibility: visible;
+    border: 1px solid rgb(80,64,56);
+}
+
+footer{
+    background-color: rgb(24,24,24);
+    
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 12px;
+}
+
+footer a:link{
+    text-decoration: none;
+    color:white
+}
+
+
+
+

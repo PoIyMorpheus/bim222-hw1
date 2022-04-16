@@ -1,0 +1,62 @@
+
+
+
+#show-more {
+    margin:30px;
+    border: 2px solid rgb(54, 51, 50);
+}
+
+label{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display:inline-block;
+    text-align: center;
+    line-height: 150%;
+    padding: 5px;
+
+}
+label:hover{
+    color: white;
+    background-color: rgb(54, 51, 50);
+    border-color: white;
+}
+label:after {
+    content: "Show More"; 
+     
+}
+input:checked+label:after {
+    content: "Show Less";
+}
+
+input{
+    display: none;
+    
+}
+.more {
+    height: 0px;
+    overflow: hidden;
+}
+input:checked ~ .more{
+    height: 100%;
+}
+
+.image2{
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 55%;
+    max-height: 55%;
+    
+}
+.image2:hover{
+    opacity: 0.5;
+}
+
+.about-us{
+    border-bottom: solid rgb(54, 51, 50);
+}
+.numbers-of{
+    border-bottom: solid rgb(54, 51, 50);
+}
+
+
