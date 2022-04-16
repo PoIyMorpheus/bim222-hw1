@@ -1,1 +1,1 @@
-# bim222-hw1
+# BİM222 - Internet Programming HW1
