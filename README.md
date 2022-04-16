@@ -1,1 +1,2 @@
 # BİM222 - Internet Programming HW1
+Note: I named "home.html" as "index.html" becasue github page service needs a file which name is "index.html"
